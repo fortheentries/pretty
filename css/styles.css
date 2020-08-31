@@ -1,0 +1,223 @@
+.first-container {
+  background-color: #faf3dd;
+  position: relative;
+  padding-top: 100px;
+  width: 100%;
+  box-shadow: 0 1px 5px #b0aeae;
+}
+.middle-container {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  background-color: #c8d5b9;
+  box-shadow: 0 50px 5px grey;
+
+}
+.bottom-container {
+  padding: 30px;
+  background-color: #8fc0a9;
+  box-shadow: 0 2px 5px grey;
+}
+.contact-heading {
+  color: #68b0ab;
+  font-weight: bolder;
+  margin: 50px auto;
+}
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  width: 100%;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Kristi', cursive;
+  font-size: 5.625rem;
+  color: #8fc0a9;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.187rem;
+  color: #8fc0a9;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0;
+  color: #68b0ab;
+  font-size: 1.875rem;
+  margin-bottom: 0;
+}
+.hello-heading {
+  margin-top: 30px;
+}
+.hello-desc {
+  margin: 50px auto;
+  width: 40%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 300px;
+  animation-name: floatbotcloud;
+  animation-duration: 40s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes floatbotcloud {
+  0% {
+    position: absolute;
+    left: 350px;
+    bottom: 300px;
+  }
+
+  50% {
+    position: absolute;
+    left: 600px;
+    bottom: 300px;
+  }
+
+  100% {
+    position: absolute;
+    left: 350px;
+    bottom: 300px;
+  }
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+  animation-name: floattopcloud;
+  animation-duration: 80s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+/* top cloud float animation*/
+@keyframes floattopcloud {
+  0% {
+    position: absolute;
+    right: 350px;
+    top: 50px;
+  }
+
+  50% {
+    position: absolute;
+    right: 700px;
+    top: 50px;
+  }
+}
+
+.low-cloud {
+  position: absolute;
+  right: 475px;
+  bottom: 200px;
+  animation-name: floatlowcloud;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+/* low cloud float animation*/
+@keyframes floatlowcloud {
+  0% {
+    position: absolute;
+    right: 475px;
+    bottom: 200px;
+  }
+
+  50% {
+    position: absolute;
+    right: 300px;
+    bottom: 200px;
+  }
+
+  100% {
+    position: absolute;
+    right: 475px;
+    bottom: 200px;
+  }
+}
+
+.mountain {
+  height: 350px;
+  bottom: -1;
+}
+
+.coding-image {
+  width: 25%;
+  border-radius: 10px;
+  float: left;
+  margin-right: 30px;
+}
+
+.healthcare-image {
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 75px auto;
+  text-align: left;
+
+}
+
+
+
+.skill-heading {
+  margin: 20px auto;
+}
+.skills-primary-heading {
+  margin-top: 50px;
+}
+.btn {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  background-color: #BCB0D6;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-family: 'Josefin Sans',sans-serif;
+  font-weight: bolder;
+  color: #faf3dd;
+  transition: padding 150ms;
+
+}
+.btn:hover {
+  padding: 20px 25px;
+  opacity: 0.8;
+}
+.contact-subheading {
+  margin-bottom: 40px;
+}
+.footer-link {
+  color: #faf3dd;
+  margin: 15px;
+}
+hr {
+  height: 0;
+  width: 10%;
+  border-style: dotted none none none;
+  border-width: 0.8rem;
+  border-color: #C0C0C0;
+}
+p {
+  line-height: 2;
+}
+.contact-desc {
+  width: 40%;
+  margin: 20px auto;
+}
